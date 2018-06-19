@@ -3,7 +3,7 @@ This project is an opinionated base template for react-native applications, and 
 It includes most of the infrastructure needed for a working app, including:
 
 ##### Developing tools
-- debugging - [react-native-debugger](https://github.com/jhen0409/react-native-debugger) :x:
+- debugging - [react-native-debugger](https://github.com/jhen0409/react-native-debugger) :white_check_mark:
 - lint - [ESLint](https://eslint.org/) :x:
 - [Prettier](https://github.com/prettier/prettier) :x:
 - static type checker - [flow](https://flow.org/) :x:
