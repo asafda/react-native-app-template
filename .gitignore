@@ -1,7 +1,10 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
-# expo
-.expo/
+# Xcode
+build/
+
+# Android
+.gradle/
 
 # dependencies
 /node_modules
