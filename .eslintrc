@@ -1,0 +1,36 @@
+{
+  "plugins": ["react", "react-native", "import", "prettier"],
+  "parserOptions": {
+    "ecmaVersion": 7,
+    "sourceType": "module",
+    "ecmaFeatures": {
+        "jsx": true
+    }
+  },
+  "env": {
+    "es6": true,
+    "jest": true
+  },
+  "extends": ["eslint:recommended", "prettier"],
+  "globals": {
+    "global": true,
+    "GLOBAL": true,
+    "XMLHttpRequest": true,
+    "console": true,
+    "process": true,
+    "__DEV__": true,
+    "setTimeout": true,
+    "clearTimeout": true
+  },
+  "rules": {
+    "prettier/prettier": "error",
+    "react-native/no-unused-styles": 2,
+    "react-native/no-inline-styles": 2,
+    "react-native/no-color-literals": 2,
+    "react/forbid-prop-types": [2, { "forbid": ["any"] }],
+    "no-unused-expressions": [2, { "allowShortCircuit": true, "allowTernary": true }],
+    "react/jsx-uses-vars": 2,
+    "react/jsx-uses-react": 2,
+    "no-console": 1
+  }
+}

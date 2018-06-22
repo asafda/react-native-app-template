@@ -4,8 +4,8 @@ It includes most of the infrastructure needed for a working app, including:
 
 ##### Developing tools
 - debugging - [react-native-debugger](https://github.com/jhen0409/react-native-debugger) :white_check_mark:
-- lint - [ESLint](https://eslint.org/) :x:
-- [Prettier](https://github.com/prettier/prettier) :x:
+- lint - [ESLint](https://eslint.org/) :white_check_mark:
+- [Prettier](https://github.com/prettier/prettier) :white_check_mark:
 - static type checker - [flow](https://flow.org/) :x:
 - testing - [Jest](https://facebook.github.io/jest/) & [Detox](https://github.com/wix/detox) :x:
 ##### Logging tools
