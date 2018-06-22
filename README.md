@@ -6,7 +6,7 @@ It includes most of the infrastructure needed for a working app, including:
 - debugging - [react-native-debugger](https://github.com/jhen0409/react-native-debugger) :white_check_mark:
 - lint - [ESLint](https://eslint.org/) :white_check_mark:
 - [Prettier](https://github.com/prettier/prettier) :white_check_mark:
-- static type checker - [flow](https://flow.org/) :x:
+- static type checker - [flow](https://flow.org/) :white_check_mark:
 - testing - [Jest](https://facebook.github.io/jest/) & [Detox](https://github.com/wix/detox) :x:
 ##### Logging tools
 - JS logging - [logentries](http://logentries.com/) :x:
@@ -22,6 +22,15 @@ It includes most of the infrastructure needed for a working app, including:
 - icons - [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons) :x:
 - navigation - [react-navigation](https://reactnavigation.org/) :x:
 
+## IDE
+
+We use [VSCode](https://code.visualstudio.com/) as our IDE. While we use a decent range of extensions, the following are considered required for working with this repository:
+- ESLint
+- Prettier - Code formatter
+- vscode-flow-ide
+
+If you're using a different IDE you'll need to configure your own extensions to replace to mentioned above.
+
 ## Getting started
 
 After cloning the project you need to install react-native-debugger with [Homebrew Cask](https://caskroom.github.io) cask by running:
@@ -29,8 +38,13 @@ After cloning the project you need to install react-native-debugger with [Homebr
 $ brew update && brew cask install react-native-debugger
 ```
 
-Then install all dependencies by running:
+Install all dependencies by running:
 ``` js
 npm i
+```
+
+Install flow library definitions using [flow-typed](https://github.com/flowtype/flow-typed) and then run:
+```js
+flow-typed install
 ```
 
