@@ -16,12 +16,12 @@ It includes most of the infrastructure needed for a working app, including:
 - JS updates - [Code Push](https://microsoft.github.io/code-push/) :x:
 - CI - [bitrise](http://bitrise.io/) :x:
 ##### Other
-- HTTP package - [axios](https://github.com/axios/axios) :x:
+- HTTP package - [axios](https://github.com/axios/axios) :white_check_mark:
 - device information - [device-info](https://github.com/rebeccahughes/react-native-device-info) & [version-number](https://github.com/APSL/react-native-version-number) :x:
 - absolute imports - [root-slash-import](https://github.com/mantrajs/babel-root-slash-import) :x:
 - icons - [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons) :x:
 - navigation - [react-navigation](https://reactnavigation.org/) :x:
-- local storage - layer of abstraction above React-Native AsyncStorage for a better API and to promisify it
+- local storage - layer of abstraction above React-Native AsyncStorage for a better API and to promisify it :white_check_mark:
 
 ## IDE
 
