@@ -21,6 +21,7 @@ It includes most of the infrastructure needed for a working app, including:
 - absolute imports - [root-slash-import](https://github.com/mantrajs/babel-root-slash-import) :x:
 - icons - [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons) :x:
 - navigation - [react-navigation](https://reactnavigation.org/) :x:
+- local storage - layer of abstraction above React-Native AsyncStorage for a better API and to promisify it
 
 ## IDE
 
