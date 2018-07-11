@@ -18,7 +18,7 @@ It includes most of the infrastructure needed for a working app, including:
 ##### Other
 - HTTP package - [axios](https://github.com/axios/axios) :white_check_mark:
 - device information - [device-info](https://github.com/rebeccahughes/react-native-device-info) & [version-number](https://github.com/APSL/react-native-version-number) :x:
-- absolute imports - [root-slash-import](https://github.com/mantrajs/babel-root-slash-import) :x:
+- absolute imports - [root-slash-import](https://github.com/mantrajs/babel-root-slash-import) :white_check_mark:
 - icons - [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons) :x:
 - navigation - [react-navigation](https://reactnavigation.org/) :x:
 - local storage - layer of abstraction above React-Native AsyncStorage for a better API and to promisify it :white_check_mark:
@@ -30,7 +30,7 @@ We use [VSCode](https://code.visualstudio.com/) as our IDE. While we use a decen
 - Prettier - Code formatter
 - vscode-flow-ide
 
-If you're using a different IDE you'll need to configure your own extensions to replace to mentioned above.
+If you're using a different IDE you'll need to configure your own extensions to replace the mentioned above.
 
 ## Getting started
 
@@ -44,7 +44,7 @@ Install all dependencies by running:
 npm i
 ```
 
-Install flow library definitions using [flow-typed](https://github.com/flowtype/flow-typed) and then run:
+Install flow library definitions using [flow-typed](https://github.com/flowtype/flow-typed):
 ```js
 flow-typed install
 ```
